@@ -7,7 +7,12 @@ def greetWhite():
 def greetBlack():
     print("hello black")
 
-if __name__ == "__main__":
+
+def main():
     greet()
     greetWhite()
     greetBlack()
+
+
+if __name__ == "__main__":
+    main()
